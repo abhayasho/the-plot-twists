@@ -1,0 +1,44 @@
+#dashboard-title {
+    color: cornflowerblue;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.correlation {
+    font-size: 14px;
+}
+
+.indent {
+    text-indent: 50px;
+    text-align: center;
+}
+
+#paragraph-one-text, #paragraph-two-text, #paragraph-three-text {
+    text-indent: 50px;
+}
+
+#focus-journey {
+    position: relative;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.journey-link {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.journey-node {
+    cursor: pointer;
+}
+
+.quote-container {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    max-width: 600px;
+    margin: 40px auto;
+    line-height: 1.5;
+    color: #000000;
+}

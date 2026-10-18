@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Attention Span and Reels Dashboard">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Plot Twists Data Analysis</title>
+
+	<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500' rel='stylesheet' type='text/css'>
+</head>
+
+<body class="container">
+	<div class="text-center">
+		<h2 id="dashboard-title">Short-Form Content vs. Attention Metrics Dashboard</h2>
+	</div>
+
+	<div class="row justify-content-center mb-4">
+		<div class="col-md-8 border-top pt-3">
+			<h3 class="text-center mb-4">Introduction</h3>
+			<p id="introduction-text" class="indent">
+				We often hear that social media is destroying our attention spans. With short-form content becoming
+				a daily habit, it seems reasonable to assume that more screen time leads to less focus.
+			</p>
+
+			<p class="indent">
+				We analyzed thousands of users to test that assumption. What we found challenged a popular belief
+				and pointed to a different factor that may have a much greater impact on attention and productivity.
+			</p>
+
+
+		</div>
+	</div>
+
+	<div class="row justify-content-center mb-4">
+		<div class="col-md-8 border-top pt-3">
+			<h3 class="text-center mb-4">Screen Time May Not Be Responsible For Focus Levels</h3>
+			<p id="paragraph-one-text" class="indent">
+				We started with the most common assumption: more screen time should lead to lower focus.
+			</p>
+
+			<p class="indent">
+				<strong>The charts tell a different story.</strong>
+			</p>
+
+			<p class="indent">
+				Instead, the relationship was surprisingly unclear. Focus levels varied across all screen-time ranges,
+				and the correlation coefficient (r = 0.063) was nearly zero. With no strong pattern emerging,
+				the data left us with a new question.
+			</p>
+
+			<p class="indent">
+				<strong>If screen time isn't strongly linked to focus, what is?</strong>
+			</p>
+
+			<p class="indent correlation">
+				Note*: The value r in the chart on the right indicates correlation. Negative values closer to -1
+				indicate negative correlation. Positive values closer to 1 indicate positive correlation. Values close to
+				0 indicate no correlation.
+			</p>
+		</div>
+	</div>
+
+	<div class="row justify-content-center mb-4">
+		<div id="chart-1" class="col-md-5 border"></div>
+		<div id="chart-2" class="col-md-5 border"></div>
+	</div>
+
+	<div class="row justify-content-center mb-4">
+		<div class="col-md-8 border-top pt-3">
+			<h3 class="text-center mb-4">The Real Suspect</h3>
+			<p id="paragraph-two-text" class="indent">
+				If screen time is not driving focus levels, what is?
+			</p>
+
+			<p class="indent">
+				First, we examined whether the platform itself mattered. TikTok, Instagram Reels, and YouTube Shorts
+				showed very similar attention and focus patterns.
+			</p>
+
+			<p class="indent">
+				Sleep told a different story. As sleep increased, focus, attention span, and overall performance
+				improved. The data suggests sleep may be a far stronger predictor of focus than either platform
+				choice or screen time.
+			</p>
+		</div>
+	</div>
+
+	<div class="row justify-content-center">
+		<div id="chart-3" class="col-md-5 border"></div>
+		<div id="chart-4" class="col-md-5 border"></div>
+	</div>
+
+	<div class="row justify-content-center mb-4">
+		<div class="col-md-8 border-top pt-3">
+			<h3 class="text-center mb-4">Further Exploration</h3>
+			<p id="paragraph-three-text" class="indent">
+				We took one final look at productivity to see if screen time explained performance.
+			</p>
+
+			<p class="indent">
+				It didn't. Highly productive users appeared across nearly every level of screen usage.
+			</p>
+
+			<p class="indent">
+				The pattern reinforces what we've seen throughout the analysis: <strong>screen time alone is not
+				enough to explain attention and productivity.</strong> Other factors, especially sleep, appear to
+				play a much larger role.
+			</p>
+		</div>
+	</div>
+
+	<div class="row justify-content-center">
+		<div id="chart-5" class="col-md-5 border"></div>
+		<div id="chart-6" class="col-md-5 border"></div>
+	</div>
+
+	<div class="row justify-content-center mb-4">
+		<div class="col-md-8 border-top pt-3">
+			<h3 class="text-center mb-3">The Focus Journey</h3>
+			<p class="indent">
+				The Focus Journey Map visualizes how interconnected screen time, sleep, attention, stress, and
+				productivity are in a single view.
+			</p>
+
+			<p class="indent">
+				Follow the paths to see how these key factors interact throughout the story.
+			</p>
+			<div id="focus-journey"></div>
+		</div>
+	</div>
+
+	<div class="row justify-content-center mb-4">
+		<div class="col-md-8 border-top pt-3">
+			<h3 class="text-center mb-3">Conclusion</h3>
+			<p class="indent">
+				The strongest paths in the Focus Journey Map begin with sleep. More sleep is associated with
+				better focus and lower stress, while lower stress is linked to stronger focus and higher task
+				completion rates. Together, these relationships suggest that productivity is shaped less by screen
+				time alone and more by a connected chain of factors, with sleep playing a foundational role.
+			</p>
+
+			<blockquote class="quote-container text-center">
+				"The biggest plot twist wasn't what people were watching—it was how much they were sleeping."
+			</blockquote>
+		</div>
+	</div>
+
+
+	<script src="js/main.js"></script>
+</body>
+</html>
