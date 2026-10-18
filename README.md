@@ -11,7 +11,6 @@
 
 **The Plot Twists** is an interactive data story built for **CS 4460 (Information Visualization) at Georgia Tech**. It starts from a popular belief, that short-form video is destroying our attention spans, and explores it with seven linked D3 views over a dataset of 12,000 users of TikTok, Instagram Reels and YouTube Shorts.
 
-**Team:** Pratham, Jada and Abhay
 
 > [!NOTE]
 > **About the findings.** The screen-time result holds up: daily screen time has essentially no correlation with focus in this dataset (r ≈ 0.00 across all 12,000 rows). The dashboard's sleep storyline does not come from the raw data, though:
